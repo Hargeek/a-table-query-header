@@ -1,6 +1,6 @@
 {
   "name": "@ssgeek/a-table-query-header",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "@dangojs/a-query-header（支持本地化）版本",
   "main": "dist/index.cjs.js",
