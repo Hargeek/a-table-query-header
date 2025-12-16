@@ -2,8 +2,8 @@
   <a-form
     :model="model"
     :layout="layout"
-    @submit.prevent="onSubmit"
-    @reset.prevent="onReset"
+    @submit="onSubmit"
+    @reset="onReset"
     @keyup.enter="onAutoSubmit"
   >
     <a-grid :cols="numCol" :col-gap="16" :row-gap="16" :collapsed="isCollapsed">
